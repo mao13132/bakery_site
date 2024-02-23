@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт пекарни</title>
+    <meta name="title" content="Сайт пекарни">
+    <meta name="description" content="Сайт меню пекарни">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preload" as="image" href="assets/images/hero-slider-1.jpg">
+    <link rel="preload" as="image" href="assets/images/hero-slider-2.png">
+    <link rel="preload" as="image" href="assets/images/hero-slider-3.jpg">
+
+    <script src="assets/js/script.js" defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" defer></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer></script>
+</head>
+
+<body>
+
+    <div class="preload" data-preload>
+        <div class="circle"></div>
+        <p class="text">Пекарня</p>
+    </div>
+
+    <div class="topbar">
+        <div class="container">
+            <address class="topbar-item">
+                <div class="icon">
+                    <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">
+                    Нижний Новгород Болезёрская 2
+                </span>
+
+                <div class="separetor"></div>
+
+                <div class="topbar-item item-2">
+                    <div class="icon">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+
+                    <span class="span">
+                        Каждый день: 8:00 до 20:00
+                    </span>
+
+                </div>
+
+
+                <a href="tel:+79026807233" class="topbar-item">
+
+
+                    <div class="icon">
+                        <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+
+                    <span class="span">
+                        +79026807233
+                    </span>
+
+                </a>
+
+                <div class="separetor"></div>
+
+
+                <a href="mailto:x1@bk.ru" class="topbar-item">
+
+
+                    <div class="icon">
+                        <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+
+                    <span class="span">
+                        x1@bk.ru
+                    </span>
+
+                </a>
+
+            </address>
+        </div>
+    </div>
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <img src="assets/images/logo.svg" width="100" alt="логотип">
+            </a>
+
+            <nav class="navbar" data-navbar>
+
+                <button class="close-btn" aria-label="close menu" data-nav-toggler>
+                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+                <a href="#" class="logo">
+                    <img src="assets/images/logo.svg" width="100" alt="логотип">
+                </a>
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="#home" class="navbar-link hover-underline">
+
+                            <div class="separator"></div>
+
+                            <span class="span">Главная</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#menu" class="navbar-link hover-underline">
+
+                            <div class="separator"></div>
+
+                            <span class="span">Меню</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#about" class="navbar-link hover-underline">
+
+                            <div class="separator"></div>
+
+                            <span class="span">О нас</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link hover-underline">
+
+                            <div class="separator"></div>
+
+                            <span class="span">Наши повора</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#contact" class="navbar-link hover-underline">
+
+                            <div class="separator"></div>
+
+                            <span class="span">Контакты</span>
+                        </a>
+                    </li>
+
+                    <div class="text-center">
+                        <p class="headline-1 navbar-title">Наш офис</p>
+
+                        <address class="body-4">
+                            Нижний Новгород адрес 1
+                        </address>
+
+                        <p class="body-4 navbar-textt">
+                            Режим работы 9:00 21:00
+                        </p>
+
+                        <a href="mailto:admin@mail.ru" class="body-4 sidebar-link">admin@mail.ru</a>
+
+                        <div class="separator"></div>
+
+                        <p class="contact-label">Книга отзывов</p>
+
+                        <a href="tel:+79026807233" class="body-1 contact-number hover-underline">79026807233</a>
+
+                    </div>
+
+                </ul>
+
+            </nav>
+
+            <a href="" class="btn btn-secondary">
+                <span class="text text-1">Найти в таблице</span>
+                <span class="text text-2" aria-hidden="true">Найти в таблице</span>
+            </a>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+
+
+    <main>
+        <article>
+
+            <section class="hero text-center" aria-label="home" id="home">
+
+                <ul class="hero-slider" data-hero-slider>
+
+                    <li class="slider-item active" data-hero-slider-item>
+
+                        <div class="slider-bg">
+
+                            <img src="assets/images/hero-slider-1.jpg" width="1880" height="950" alt=""
+                                class="img-cover">
+                        </div>
+
+                        <p class="label-2 section-subtitle slider-reveal">Свяжая и вкусная пицца</p>
+
+                        <h1 class="display-1 hero-title slider-reveal">Продукция сделаная с любовью</h1>
+
+                        <p class="body-2 hero-text slider-reveal">Только качественные и свежие индигриенты</p>
+
+                        <a href="" class="btn btn-primary slider-reveal">
+                            <span class="text text-1">Посмотреть меню</span>
+                            <span class="text text-2" aria-hidden="true">Посмотреть меню</span>
+                        </a>
+
+
+                    </li>
+
+                    <li class="slider-item" data-hero-slider-item>
+
+                        <div class="slider-bg">
+
+                            <img src="assets/images/hero-slider-2.png" width="1880" height="950" alt=""
+                                class="img-cover">
+                        </div>
+
+                        <p class="label-2 section-subtitle slider-reveal">Выпекаем, готовим, радуем Вас</p>
+
+                        <h1 class="display-1 hero-title slider-reveal">Свежие пирожки и хлеб</h1>
+
+                        <p class="body-2 hero-text slider-reveal">Теплые и свежие</p>
+
+                        <a href="" class="btn btn-primary slider-reveal">
+                            <span class="text text-1">Посмотреть меню</span>
+                            <span class="text text-2" aria-hidden="true">Посмотреть меню</span>
+                        </a>
+
+
+
+                    </li>
+
+                    <li class="slider-item" data-hero-slider-item>
+
+                        <div class="slider-bg">
+                            <img src="assets/images/hero-slider-3.jpg" width="1880" height="950" alt=""
+                                class="img-cover">
+
+                        </div>
+                        
+                        <p class="label-2 section-subtitle slider-reveal">Любим эксперементы</p>
+
+                        <h1 class="display-1 hero-title slider-reveal">Изысканные изделия</h1>
+
+                        <p class="body-2 hero-text slider-reveal">Делаем своими руками</p>
+
+                        <a href="" class="btn btn-primary slider-reveal">
+                            <span class="text text-1">Посмотреть меню</span>
+                            <span class="text text-2" aria-hidden="true">Посмотреть меню</span>
+                        </a>
+
+
+                    </li>
+
+                </ul>
+
+                <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+                    <ion-icon class="chevron-back"></ion-icon>
+                </button>
+
+                <button class="slider-btn next" aria-label="следующий слайд" data-next-btn>
+                    <ion-icon class="chevron-forward"></ion-icon>
+                </button>
+
+                <a href="#" class="hero-btn has-after">
+                    <img src="assets/images/hero-icon.png" width="48" height="488" alt="Иконка меню" sizes="" srcset="">
+
+                    <span class="label-2 text-center span">Заказать</span>
+                </a>
+
+            </section>
+
+        </article>
+    </main>
+
+
+</body>
+
+</html>
